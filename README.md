@@ -95,10 +95,3 @@ npm run preview
 6. Click **Deploy**.
 7. Verify the live URL renders correctly on mobile and desktop.
 
-## Important Notes Before Final Submission
-
-1. **Replace all placeholder images.** Every file under `src/assets/images/` is currently a generated placeholder SVG (clearly labeled). Export the real images from the Figma file (`right-click → Export`) and swap them in at the same file paths — no component changes required.
-2. **No mobile/tablet Figma frame existed** — this Figma file only contained a 1728px desktop frame. All `sm:` and base (mobile) Tailwind classes are a reasonable responsive extrapolation, not values pulled directly from Figma. The `lg:` breakpoint and above match the Figma JSON exactly (colors, font sizes, spacing, radii).
-3. **Decorative quote-mark flourish vectors** (next to each section title) are approximated with a generic SVG shape — the original Figma vector paths weren't exported with their geometry in the JSON. Re-trace from Figma if pixel-exact shape matters for grading.
-4. This project intentionally contains no backend, API calls, or extra features beyond the Figma design and assignment brief.
-#
